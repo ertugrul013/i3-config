@@ -1,8 +1,8 @@
 export ANDROID_HOME=$HOME/Android/Sdk
 
-export PATH="$PATH:/home/eddie-veteran/Applications/flutter/flutter/bin"
+export PATH="$PATH:/home/eddie-veteran/development/flutter/flutter/bin"
 
-export PATH="$PATH":"$HOME/Applications/flutter/flutter/.pub-cache/bin"
+export PATH="$PATH":"$HOME/development/flutter/flutter/.pub-cache/bin"
 
 export PATH="$PATH":"/usr/lib/dart/bin"
 
