@@ -1,0 +1,17 @@
+#!/bin/bash
+
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
+
+echo "started upgrading"
+
+echo "running package updates"
+sudo apt update
+
+echo "running package upgrades"
+sudo apt upgrade
+
+echo "running dist-upgrade"
+sudo apt dist-upgrade
+
+echo "clean up"
+sudo apt autoremove
